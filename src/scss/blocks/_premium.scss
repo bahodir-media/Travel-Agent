@@ -1,0 +1,141 @@
+.premium {
+	padding: 60px 0;
+
+	@include mediaTablet {
+		padding: 30px 0;
+	}
+}
+.premium__row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 120px;
+
+	@include mediaLaptop {
+		gap: 60px;
+	}
+
+				@include mediaMobile {
+		grid-template-columns: 1fr;
+	}
+}
+.explore__text {
+	margin-bottom: 32px;
+}
+
+.premium__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+
+			@include mediaTablet {
+		grid-template-columns: 1fr;
+	}
+}
+.list__col {
+	display: flex;
+	gap: 8px;
+
+		@include mediaMobile {
+		flex-direction: row;
+	}
+
+
+}
+.list__num {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	color: var(--text-white);
+	background: var(--accent);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	flex-shrink: 0;
+}
+.premium__gallery {
+	display: grid;
+	gap: 24px;
+}
+
+.gallery__top {
+	position: relative;
+}
+
+.gallery__img {
+	width: 100%;
+	display: block;
+	border-radius: 16px;
+	object-fit: cover;
+}
+
+.large {
+	height: 320px;
+}
+
+.gallery__bottom {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+	
+		@include mediaMobileS {
+		grid-template-columns: 1fr;
+	}
+}
+
+.small {
+	height: 220px;
+}
+
+.gallery__badge {
+	display: flex;
+	flex-direction: column;
+	padding: 12px;
+	gap: 16px;
+	width: 240px;
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
+	position: absolute;
+	top: 96px;
+	left: -58px;
+
+			@include mediaMobile {
+			top: 10px;
+	left: 10px;
+	}
+}
+
+.gallery__avatars {
+	display: flex;
+	align-items: center;
+}
+
+.gallery__avatars picture {
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	margin-left: -12px;
+	object-fit: cover;
+	position: relative;
+	z-index: 1;
+}
+
+.gallery__avatars picture:first-child {
+	margin-left: 0; /* no overlap on the first image */
+}
+.gallery__avatars picture {
+	z-index: 0;
+}
+
+.gallery__avatars picture:last-child {
+	z-index: 21;
+}
+
+.gallery__count {
+	color: var(--accent);
+}
+
+.gallery__text p {
+	font-size: 18px;
+}

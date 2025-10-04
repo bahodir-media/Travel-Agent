@@ -1,0 +1,26 @@
+.hint-explore-person {
+	display: flex;
+	padding: 12px;
+	gap: 16px;
+	width: 240px;
+	border-radius: 82px;
+	background: #fff;
+	box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
+}
+
+.hint-explore-person__picture {
+	border-radius: 50%;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+
+.hint-explore-person__desc {
+	flex-grow: 1;
+}
+
+.hint-explore-person__title {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%; /* 27px */
+}

@@ -1,0 +1,44 @@
+[
+	{
+		"stars": 5,
+		"text": "Amazing experience! Everything was well-organized — we had a fantastic time exploring new places. Highly recommend!",
+		"name": "Jake Paul",
+		"role": "Travel Enthusiast",
+		"img": "04.jpg"
+	},
+	{
+		"stars": 4,
+		"text": "Customer service was top-notch! They responded fast and helped me plan my dream trip. Smooth process from start to finish.",
+		"name": "Jake Paul",
+		"role": "Travel Enthusiast",
+		"img": "05.jpg"
+	},
+	{
+		"stars": 5,
+		"text": "An outstanding resource for travelers. Their destination guides and reviews are always accurate and inspiring!",
+		"name": "Hendra Paru Paru",
+		"role": "Travel Enthusiast",
+		"img": "06.jpg"
+	},
+	{
+		"stars": 5,
+		"text": "Booking was a breeze. Loved how easy it was to compare options and finalize our plans. Will use again for sure!",
+		"name": "Jake Paul",
+		"role": "Travel Blogger",
+		"img": "04.jpg"
+	},
+	{
+		"stars": 4,
+		"text": "They helped us plan an unforgettable vacation. Great deals and excellent communication throughout. Highly satisfied!",
+		"name": "Jake Paul",
+		"role": "Adventure Traveler",
+		"img": "05.jpg"
+	},
+	{
+		"stars": 5,
+		"text": "Absolutely love this platform! It saved me so much time finding hotels and tours that matched my budget. I’m already planning my next trip through them. Highly recommend for anyone who enjoys stress-free travel planning!",
+		"name": "Hendra Paru Paru",
+		"role": "Travel Enthusiast",
+		"img": "06.jpg"
+	}
+]

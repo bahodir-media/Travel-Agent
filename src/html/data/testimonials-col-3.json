@@ -1,0 +1,44 @@
+[
+	{
+		"stars": 4,
+		"text": "Smooth and easy booking process. Found great deals in just a few clicks!",
+		"name": "Akbar Cenglu",
+		"role": "Travel Enthusiast",
+		"img": "07.jpg"
+	},
+	{
+		"stars": 3,
+		"text": "Their travel guides were detailed and super helpful during our trip to Bali. We felt confident exploring hidden gems that we wouldn’t have found otherwise.",
+		"name": "Jake Paul",
+		"role": "Travel Blogger",
+		"img": "08.jpg"
+	},
+	{
+		"stars": 5,
+		"text": "Amazing experience! Booking our family vacation through this site was effortless. Everything from hotel reservations to local tours was handled seamlessly. Highly recommend for anyone looking for stress-free travel planning!",
+		"name": "Lina Gomez",
+		"role": "Adventure Seeker",
+		"img": "09.jpg"
+	},
+	{
+		"stars": 4,
+		"text": "Great deals and very user-friendly interface. I found everything I needed quickly. Support was responsive too!",
+		"name": "Akbar Cenglu",
+		"role": "Frequent Traveler",
+		"img": "07.jpg"
+	},
+	{
+		"stars": 3,
+		"text": "Nice platform overall, but I wish there were more destination photos. Still, the blog section was fun to read.",
+		"name": "Jake Paul",
+		"role": "Backpacker",
+		"img": "08.jpg"
+	},
+	{
+		"stars": 5,
+		"text": "This website completely changed the way I plan trips. The recommendations were spot-on, and the itinerary tool saved me hours of work. Will definitely use it again for my next adventure!",
+		"name": "Sara Miles",
+		"role": "Solo Traveler",
+		"img": "09.jpg"
+	}
+]
